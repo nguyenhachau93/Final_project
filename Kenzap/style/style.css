@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  font-family: "Open Sans";
+}
+
+.container {
+  width: 1170px;
+}
+
+#header {
+  background-color: #f8f8f8;
+}
+
+#header .navbar ul li a,
+#header .navbar ul li button {
+  font-family: "Open Sans";
+  font-size: 0.8rem;
+  color: #252525;
+  font-weight: 600;
+}
+
+#header .navbar ul li a:hover,
+#header .navbar ul li button:hover {
+  color: blue;
+}
+
+#header .navbar ul li button {
+  text-transform: uppercase;
+  color: #9376df;
+  background: white;
+}
+
+#header .row:last-child {
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+}
+
+#header .row:last-child .col-7 {
+  font-family: "Open Sans";
+}
+
+#header .row:last-child .col-7 :first-child {
+  font-size: 3.5rem;
+}
+
+#header .row:last-child .col-7 :nth-child(2) {
+  font-size: 1.1rem;
+  color: #6b6b6b;
+  width: 24rem;
+}
+
+#header .row:last-child .col-7 :nth-child(3) {
+  background-color: transparent;
+  color: #909090;
+  border: none;
+  font-size: 0.9rem;
+  width: 23rem;
+  text-align: left;
+}
+
+#header .row:last-child .col-7 :nth-child(5) {
+  padding: 0.9rem 2.4rem;
+  font-size: 0.9rem;
+  background: #8a6bda;
+}
+
+#header .row:last-child .col-7 :nth-child(5):hover {
+  background-color: white;
+  color: #8a6bda;
+  font-weight: 600;
+}
+
+#header .mini-stats {
+  width: 35%;
+  height: 80px;
+  border-radius: 50px;
+  position: relative;
+  bottom: -40px;
+}
+
+#header .mini-stats .stat p {
+  margin: 0;
+}
+
+#header .mini-stats .stat :last-child {
+  color: #909090;
+  font-size: 0.8rem;
+}
+
+#features {
+  padding: 8rem 0 10rem 0;
+}
+
+#features .container .row .col-4 #collapsePanel {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Open Sans";
+}
+.container {
+  width: 1170px;
+}
+
+#header {
+  //   background: url("https://itbrief.com.au/uploads/story/2021/12/16/GettyImages-1274407908.webp");
+  //   background-repeat: no-repeat;
+  //   object-fit: contain;
+  //   background-size: cover;
+
+  background-color: #f8f8f8;
+
+  .navbar {
+    ul {
+      li {
+        a,
+        button {
+          font-family: "Open Sans";
+          font-size: 0.8rem;
+          color: #252525;
+          font-weight: 600;
+          &:hover {
+            color: blue;
+          }
+        }
+        button {
+          text-transform: uppercase;
+          color: #9376df;
+          background: white;
+        }
+      }
+    }
+  }
+
+  .row:last-child {
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+
+    .col-7 {
+      font-family: "Open Sans";
+      :first-child {
+        font-size: 3.5rem;
+      }
+
+      :nth-child(2) {
+        font-size: 1.1rem;
+        color: #6b6b6b;
+        width: 24rem;
+      }
+
+      :nth-child(3) {
+        background-color: transparent;
+        color: #909090;
+        border: none;
+        font-size: 0.9rem;
+        width: 23rem;
+        text-align: left;
+      }
+
+      :nth-child(5) {
+        padding: 0.9rem 2.4rem;
+        font-size: 0.9rem;
+        background: #8a6bda;
+        &:hover {
+          background-color: white;
+          color: #8a6bda;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .mini-stats {
+    width: 35%;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    bottom: -40px;
+    .stat {
+      p {
+        margin: 0;
+      }
+      :last-child {
+        color: #909090;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+#features {
+  padding: 8rem 0 10rem 0;
+
+  .container {
+    .row {
+      .col-4 {
+        #collapsePanel {
+          background-color: transparent;
+          color: black;
+          border: none;
+        }
+      }
+    }
+  }
+}
